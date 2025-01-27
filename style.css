@@ -1,0 +1,74 @@
+h1
+{
+    text-align: center;
+}
+.todos
+{
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    z-index: 10000;
+}
+.todos input 
+{
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid black;
+    font-size: 20px;
+    padding: 0 10px;
+}
+.todos textarea 
+{
+    width: 200px;
+    height: 150px;
+    padding: 10px 10px;
+    border: 2px solid black;
+}
+#btn
+{
+    width: 200px;
+    height: 50px;
+    border: 2px solid black;
+    font-size: 15px;
+    background: orange;
+}
+.container{
+
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    flex-direction: column;
+    gap: 18px;
+
+}
+.box
+ {
+    flex-direction: column;
+    gap: 10px;
+    width: 450px;
+    height: 250px;
+    border-radius: 20px;
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    background: rgba(231, 83, 29, 0.788);
+}
+p span 
+{
+    font-size: 30px ;
+    font-weight: 600;
+    color: black;
+}
+p
+{
+    font-size: 21px;
+    color: #fff;
+}
