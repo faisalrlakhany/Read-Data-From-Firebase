@@ -72,3 +72,20 @@ p
     font-size: 21px;
     color: #fff;
 }
+.bTn
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.bTn button
+{
+    cursor: pointer;
+    background: rgb(233, 140, 65);
+    padding: 8px 30px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 15px;
+
+}
